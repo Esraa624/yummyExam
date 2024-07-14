@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#category-list,
+#item-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.category-item,
+.item {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.category-item img,
+.item img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.category-item:hover,
+.item:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>search</title>
+</head>
+<body>
+
+    <div class="menu bg-white  vh-100 ">
+        <div class="left-menu">
+            <img src="img/logo.png" width="100%" class="img" alt="logo">
+            <div class="icon">
+                <i class="fa-solid fa-bars   " id="openTab"></i>
+                <i class="fa-solid fa-xmark d-none " id="closeTab"></i>
+            </div>
+    
+            <div class="end ">
+                <i class="fa-solid fa-globe d-block"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+    
+        <div class="lear d-none ">
+            <ul class="list-unstyled overflow-hidden animate__animated animate__bounce">
+                <li class="py-2 "><a href="search.html">Search</a></li>
+                <li class="py-2 "> <a href="catagor.html">Categories</a></li>
+                <li class="py-2 "><a href="erea.html">Area</a></li>
+                <li class="py-2 "><a href="integ.html">Ingredients</a></li>
+                <li class="py-2 "><a href="contactUs.html">ContactUs</a></li>
+            </ul>
+            <div class="lead-end text-danger">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+                <p>Copyright Â© 2019 All Rights
+                    Reserved.</p>
+            </div>
+        </div>
+    </div>
+
+  <div class="container-fluid bg-black vh-100">
+    <div class="container">
+        <div class="row pt-3">
+            <div class="col-md-6">
+                <input id="searchByName" class="form-control form-control-sm" type="text" placeholder="Search By Name"
+                    aria-label=".form-control-sm example">
+            </div>
+            <div class="col-md-6">
+                <input id="searchBylatter" class="form-control form-control-sm" type="text" placeholder="Search By First latter"
+                    aria-label=".form-control-sm example">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row g-4 pt-3" id="disdata">
+           
+        </div>
+    </div>
+
+    <div class="loading">
+        <span class="loader"></span>
+    </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/index.js"></script>
+</body>
+</html>

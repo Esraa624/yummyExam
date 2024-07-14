@@ -1,0 +1,132 @@
+.hover-p1 {
+    position: absolute;
+    inset: 0;
+    background-color: #f9f6f6e3;
+    /* display: flex; */
+    width: 100%;
+    margin: auto;
+    transform: translateY(100%);
+    border-radius: 10px;
+    transition: transform 1s;
+    align-items: center;
+}
+.image-container{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.image-container:hover .hover-p1 {
+    transform: translateY(0%);
+    
+}
+
+.hover-p1 span {
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background-color: rgb(20, 20, 20);
+    display: grid;
+    place-content: center;
+
+}
+
+
+.loader {
+    color: #fff;
+    font-size: 10px;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    position: relative;
+    text-indent: -9999em;
+    animation: mulShdSpin 1.3s infinite linear;
+    transform: translateZ(0);
+}
+
+
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 5%;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.icon i {
+    font-size: 30px;
+}
+
+.lear {
+    background-color: #000;
+    width: 80%;
+    height: 100vh;
+    white-space: nowrap;
+}
+
+.lear ul li {
+    color: #fff;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.lear ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.end {
+    position: absolute;
+    bottom: 20px;
+    right: 7%;
+    cursor: pointer;
+}
+
+.end i {
+    font-size: 15px;
+}
+
+
+
+.lead-end i {
+    color: #fff;
+
+}
+
+.lead-end {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+}
+
+.lead-end p {
+    font-size: 15px;
+
+}
+*{
+    cursor: pointer;
+}
+
+
+p{
+    font-size: 15px;
+}
